@@ -94,3 +94,6 @@ ENV/
 # IDEs
 .vscode
 .idea
+
+# temporary data folder
+tmp
