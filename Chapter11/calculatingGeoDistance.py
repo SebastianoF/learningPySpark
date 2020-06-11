@@ -5,6 +5,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.types import *
 import pyspark.sql.functions as func
 
+
 def geoEncode(spark):
     # read the data in
     uber = spark.read.csv(
